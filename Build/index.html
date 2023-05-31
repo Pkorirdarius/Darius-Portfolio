@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Darius Portfolio</title>
+  </head>
+  <body class="font-serif scroll-smooth">
+    <!-- int4ro section -->
+    <div
+      id="homepage"
+      class="relative h-1/2 overflow-hidden bg-gradient-to-t from-blue-300 to-violet-400 lg:h-screen"
+    >
+      <!-- navbar -->
+      <nav class="fixed top-0 w-full bg-white">
+        <div class="container mx-auto flex items-center justify-between py-5">
+          <div class="item-center flex gap-2">
+            <img class="w-8" src="./img/logo.png" alt="" />
+            <span class="text-2xl font-bold text-indigo-600">Portfolio</span>
+          </div>
+          <ul
+            class="hidden space-x-10 text-sm font-bold uppercase text-gray-600 md:flex"
+          >
+            <li class="hover:text-gray-500 hover:opacity-70">
+              <a href="#homepage">homepage</a>
+            </li>
+            <li class="hover:text-gray-500 hover:opacity-70">
+              <a href="#about">about me</a>
+            </li>
+            <li class="hover:text-gray-500 hover:opacity-70">
+              <a href="#services">services</a>
+            </li>
+            <li class="hover:text-gray-500 hover:opacity-70">
+              <a href="#portfolio">portfolio</a>
+            </li>
+            <li class="hover:text-gray-500 hover:opacity-70">
+              <a href="#contact">contact</a>
+            </li>
+          </ul>
+          <div id="hamburger" class="z-20 cursor-pointer space-y-1 md:hidden">
+            <div class="h-0.5 w-6 bg-black"></div>
+            <div class="h-0.5 w-6 bg-black"></div>
+            <div class="h-0.5 w-6 bg-black"></div>
+          </div>
+          <ul
+            id="menu"
+            class="absolute left-0 top-0 hidden w-full space-y-10 rounded-b-3xl bg-indigo-900 p-10 text-center text-white"
+          >
+            <li>
+              <a href="#homepage">homepage</a>
+            </li>
+            <li>
+              <a href="#about">about me</a>
+            </li>
+            <li>
+              <a href="#services">services</a>
+            </li>
+            <li>
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Intro content -->
+      <!--circle-->
+      <div
+        class="absolute -bottom-1/4 left-0 right-0 -z-10 mx-auto hidden h-96 w-96 rounded-full bg-indigo-900 lg:block"
+      ></div>
+      <!--animated text-->
+      <div
+        class="absolute left-5 top-1/3 text-xl font-bold sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-5 xl:left-48 xl:text-7xl"
+      >
+        <span class="text-black">I am a web</span>
+        <p id="text" class="text-cyan-500">Developer</p>
+      </div>
+      <!--texts -->
+      <div
+        class="absolute bottom-0 right-10 top-0 m-auto hidden h-fit w-1/3 flex-col gap-5 rounded-md bg-white p-6 shadow-xl shadow-black lg:flex"
+      >
+        <h1 class="text-4xl font-bold text-indigo-900">Hi, I'm Darius</h1>
+        <p class="text-gray-400">
+          with over 2 years of experience in web design and development. I am
+          passionate about programming, I am a certified web developer.
+        </p>
+        <a
+          class="w-fit rounded-md bg-indigo-600 px-3 py-2 text-xl font-semibold text-white"
+          href="#contact"
+          >Hire me</a
+        >
+      </div>
+    </div>
+    <!-- About me page -->
+    <div id="about" class="px-10">
+      <div
+        class="container mx-auto flex flex-col-reverse items-center gap-20 py-40 lg:flex-row"
+      >
+        <!-- Left side -->
+        <div class="relative">
+          <div class="h-full overflow-hidden rounded-full">
+            <img
+              class=""
+              src="./img/WhatsApp Image 2023-05-30 at 15.23.29-removebg-preview.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- Right side -->
+        <div class="my-auto flex-col space-y-5">
+          <h1 class="text-4xl font-bold text-indigo-600">ABOUT ME</h1>
+          <h1 class="text-2xl font-medium text-black underline">
+            Better Experienced
+          </h1>
+          <h1 class="font-medium text-black underline">Exemplary Designer</h1>
+          <p class="text-gray-400">
+            I design and build digital websites and android apps using a range
+            of programming languages.
+          </p>
+          <h2 class="font-bold text-gray-400">HTML</h2>
+          <div class="h-1.5 w-full rounded-md bg-gray-200">
+            <div class="h-1.5 w-full rounded-md bg-indigo-600"></div>
+          </div>
+          <h2 class="font-bold text-gray-400">Tailwindcss</h2>
+          <div class="h-1.5 w-full rounded-md bg-gray-200">
+            <div class="h-1.5 w-4/6 rounded-md bg-indigo-600"></div>
+          </div>
+          <h2 class="font-bold text-gray-400">Javascript</h2>
+          <div class="h-1.5 w-full rounded-md bg-gray-200">
+            <div class="h-1.5 w-3/6 rounded-md bg-indigo-600"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
+    <!-- services -->
+    <div id="services">
+      <div class="container mx-auto">
+        <!-- Top -->
+        <div class="flex flex-col items-center gap-4">
+          <h1 class="text-4xl font-bold text-indigo-600">SERVICES</h1>
+          <h1 class="text-2xl font-bold">What do I offer?</h1>
+          <p class="text-grey-400 w-1/2 text-center">
+            I take a wide approach towards ensuring that my website satisfies
+            your company's needs while ensuring ease of use and simplicity for
+            your audience.
+          </p>
+        </div>
+        <!-- Bottom -->
+        <div class="flex flex-wrap p-5">
+          <!-- cards -->
+          <div
+            class="my-3 flex w-full flex-col gap-3 rounded-lg p-5 shadow-xl md:my-10 md:w-4/12"
+          >
+            <img class="w-10" src="./img/ui-ux-app-icon.png" alt="" />
+            <h1 class="text-lg font-medium">UX / UI Design</h1>
+            <p class="text-gray-400">
+              I have specialized in creting interacitve websites for individuals
+              and small companies but willing to take the challenge to build a
+              website for a large organization.
+            </p>
+            <a class="font-semibold text-indigo-500" href="">Read More</a>
+          </div>
+          <!-- cards -->
+          <div
+            class="my-3 flex w-full flex-col gap-3 rounded-lg p-5 shadow-xl md:my-10 md:w-4/12"
+          >
+            <img class="w-10" src="./img/android-dev-icon.png" alt="" />
+            <h1 class="text-lg font-medium">Android Development</h1>
+            <p class="text-gray-400">
+              I have sharpened my skills of android development to the brink of
+              shear perfection,I have created multiple android apps for a
+              majority of companies.
+            </p>
+            <a class="font-semibold text-indigo-500 hover:opacity-80" href=""
+              >Read More</a
+            >
+          </div>
+          <!-- cards -->
+          <div
+            class="my-3 flex w-full flex-col gap-3 rounded-lg p-5 shadow-xl md:my-10 md:w-4/12"
+          >
+            <img class="w-10" src="./img/cyber-security-icon.png" alt="" />
+            <h1 class="text-lg font-medium">Cyber Security</h1>
+            <p class="text-gray-400">
+              I specialise in pentesting as I ensure my clents' websites run
+              smoothly without worry of industrial espionage and sabotage of the
+              companies website.
+            </p>
+            <a class="font-semibold text-indigo-500 hover:opacity-80" href=""
+              >Read More</a
+            >
+          </div>
+          <!-- cards -->
+          <div
+            class="my-3 flex w-full flex-col gap-3 rounded-lg p-5 shadow-xl md:my-10 md:w-4/12"
+          >
+            <img class="w-10" src="./img/digital-marketing-icon.jpg" alt="" />
+            <h1 class="text-lg font-medium">Digital Marketing</h1>
+            <p class="text-gray-400">
+              Transform your online presence with the expertise of a skilled
+              digital marketer,propelling your brand to new heights and driving
+              unparalleled growth in digital landscape.
+            </p>
+            <a class="font-semibold text-indigo-500 hover:opacity-80" href=""
+              >Read More</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio -->
+    <div id="portfolio">
+      <div class="container mx-auto">
+        <!-- Top -->
+        <div class="flex flex-col items-center gap-4">
+          <h1 class="text-4xl font-bold text-indigo-600">PORTFOLIO</h1>
+          <h1 class="text-2xl font-bold underline">MY LATEST WORK</h1>
+          <p class="text-grey-400 w-1/2 text-center">
+            I design: mobile apps and websites.I also carryout pentesting and
+            digital marketing.Using various tools:Vs code,android studio and
+            kali linux os. I turn your requirements into a reality.
+          </p>
+        </div>
+        <!-- Bottom -->
+        <div class="flex flex-wrap p-5">
+          <!-- cards -->
+          <div
+            class="my-3  flex w-full flex-col gap-3 rounded-lg p-5 shadow-xl md:my-10 md:w-4/12"
+          ><img class="w-24" src="./img/WhatsApp Image 2023-05-17 at 10.11.23.jpg" alt="Android app">
+          <h1 class="text-lg font-medium">Android Development</h1>
+        </div>
+          <!-- cards -->
+          <div
+            class="my-3 flex w-full flex-col gap-3 rounded-lg p-5 shadow-xl md:my-10 md:w-4/12"
+          ><img src="./img/Screenshot 2023-05-31 104841.png" alt="Web app">
+          <h1 class="text-lg font-medium">Charity Organization</h1>
+        </div>
+          <!-- cards -->
+          <div
+            class="my-3 flex w-full flex-col gap-3 rounded-lg p-5 shadow-xl md:my-10 md:w-4/12"
+          ><img src="./img/alex-chumak-zGuBURGGmdY-unsplash.jpg" alt="Cyber Security">
+          <h1 class="text-lg font-medium">Cyber Security</h1>
+        </div>
+          <!-- cards -->
+          <div
+            class="my-3 flex w-full flex-col gap-3 rounded-lg p-5 shadow-xl md:my-10 md:w-4/12"
+          ><img class="w-24" src="./img/alessio-zaccaria-MplUOXqEUK0-unsplash.jpg" alt="Digital marketing">
+          <h1 class="text-lg font-medium">Digital Marketing</h1>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+      <div class="container mx-auto">
+        <!-- top-->
+        <div class="flex flex-col items-center gap-4">
+          <h1 class="text-4xl font-bold text-indigo-600">CONTACT:</h1>
+          <h1 class="text-2xl font-bold underline">Let's Work Together!</h1>
+          <p class="text-grey-400 w-1/2 text-center">
+            Have an idea? Look no further,let's discuss and see what we can do
+            together.
+          </p>
+        </div>
+        <!-- form -->
+        <section
+          id="contact"
+          class="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-16 p-6"
+        >
+          <form
+            action=""
+            class="mx-auto flex max-w-4xl flex-col items-start text-2xl sm:text-3xl"
+          >
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="Please enter your Email"
+              minlength="8"
+              maxlength="35"
+              class="w-full rounded-xl border border-solid border-slate-900 p-3 text-2xl text-black dark:border-none sm:text-3xl"
+            />
+            <label for="subject">Subject:</label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              required
+              minlength="3"
+              maxlength="60"
+              placeholder="Your subject"
+              class="w-full rounded-xl border border-solid border-slate-900 p-3 text-2xl text-black dark:border-none sm:text-3xl"
+            />
+            <label for="message">Message:</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Your message"
+              required
+              class="w-full rounded-xl border border-solid border-slate-900 p-3 text-2xl text-black dark:border-none sm:text-3xl"
+            >
+            </textarea>
+            <button
+              class="mt-7 rounded-xl border border-solid border-slate-900 bg-teal-700 p-3 text-white hover:bg-teal-600 active:bg-teal-500 dark:border-none"
+            >
+              Submit
+            </button>
+          </form>
+        </section>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer id="footer" class="bg-teal-700 text-xl text-white">
+        <section
+          class="mx-auto flex max-w-4xl flex-col p-4 sm:flex-row sm:justify-between"
+        >
+          <address>
+            <h2>Darius Korir Portfolio.</h2>
+            354 Othaya Way<br />
+            Kenya, Nairobi 12324-342323 <br />
+            Email: <a href="trm@AchmeRockets.com">pkorirdarius@gmail.com</a><br />
+            Phone: <a href="tel:+2540737322606"> (342) 445-6464</a>
+          </address>
+          <nav class="hidden flex-col gap-2 md:flex" aria-label="footer">
+            <a href="#homepage" class="opacity-90">Homepage</a>
+            <a href="#about" class="opacity-90">About</a>
+            <a href="#services" class="opacity-90">Services</a>
+            <a href="#portfolio" class="opacity-90">Work</a>
+            <a href="#contact" class="opacity-90">Contact</a>
+          </nav>
+          <div class="flex flex-col sm:gap-2">
+            <p class="text-right">Copyright &copy; <span id="year">2023</span></p>
+            <p class="text-right">All Rights Reserved</p>
+          </div>
+        </section>
+      </footer>
+    <script src="./js/main.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
