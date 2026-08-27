@@ -220,7 +220,7 @@ export const certifications: Certification[] = [
     name: 'Certified in Cybersecurity (CC) — Pre-Assessment',
     date: '2026',
     monogram: 'ISC2',
-    note: 'Continuous learning · info security & risk',
+    note: 'Ongoing learning · info security & risk',
   },
   {
     issuer: 'GoMyCode',
@@ -233,7 +233,7 @@ export const certifications: Certification[] = [
     name: 'Intro to Machine Learning',
     date: 'Feb 2025',
     monogram: 'K',
-    note: 'Continuous learning · applied ML',
+    note: 'Ongoing learning · applied ML',
   },
   {
     issuer: 'lablab.ai',

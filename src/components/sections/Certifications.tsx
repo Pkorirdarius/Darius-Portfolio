@@ -9,7 +9,7 @@ export function Certifications() {
         <SectionHeading
           index="07"
           label="Certifications"
-          title="Continuous learning, credentialed."
+          title="Ongoing learning, credentialed."
         />
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
