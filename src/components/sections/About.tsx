@@ -1,6 +1,6 @@
 import { SectionHeading } from '../ui/SectionHeading'
 import { Reveal } from '../ui/Reveal'
-import { aboutBio, education, profile } from '../../data/content'
+import { aboutBio, education } from '../../data/content'
 
 const highlights = [
   { k: 'Based in', v: 'Nairobi, Kenya' },
@@ -22,14 +22,14 @@ export function About() {
               ))}
             </div>
 
-            <div className="mt-8 flex flex-wrap gap-x-8 gap-y-4 border-t border-ink/5 pt-6 dark:border-graphite-line">
+            <dl className="mt-8 flex flex-wrap gap-x-8 gap-y-4 border-t border-ink/5 pt-6 dark:border-graphite-line">
               {highlights.map((h) => (
                 <div key={h.k}>
                   <dt className="font-mono text-xs uppercase tracking-widest text-fog-dim">{h.k}</dt>
                   <dd className="mt-1 text-sm font-medium text-ink dark:text-fog">{h.v}</dd>
                 </div>
               ))}
-            </div>
+            </dl>
           </Reveal>
 
           <Reveal delay={0.12} className="md:col-span-2">
