@@ -30,6 +30,12 @@ export function Certifications() {
                     {cert.issuer}
                   </p>
                   <p className="mt-1 font-mono text-xs text-fog-dim">{cert.date}</p>
+                  {cert.note ? (
+                    <p className="mt-2 inline-flex items-center gap-1.5 text-xs text-ink-soft dark:text-fog">
+                      <span className="h-1.5 w-1.5 rounded-full bg-signal" aria-hidden="true" />
+                      {cert.note}
+                    </p>
+                  ) : null}
                 </div>
               </div>
             </Reveal>
