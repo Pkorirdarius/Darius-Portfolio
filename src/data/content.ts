@@ -81,7 +81,7 @@ export const flagshipProjects: Project[] = [
       'Worked through Android build/toolchain issues (NDK, JDK/JAVA_HOME, permissions)',
     ],
     github: 'https://github.com/Pkorirdarius/Medical_reminder_App-Medisauti',
-    screenshot: '/images/medisauti.jpg',
+    screenshot: '/images/Medisauti.png',
     stars: 2,
     pinned: true,
   },
@@ -97,7 +97,7 @@ export const flagshipProjects: Project[] = [
       'Proposed a scoped broker-staff permission model instead of granting broker companies superuser access',
     ],
     github: 'https://github.com/Pkorirdarius',
-    screenshot: '/images/ats.jpg',
+    screenshot: '/images/AutomatedTradingSite.png',
   },
 ]
 
