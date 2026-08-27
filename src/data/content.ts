@@ -11,7 +11,6 @@ export const profile = {
   linkedinLabel: 'linkedin.com/in/pkorirdarius',
   github: 'https://github.com/Pkorirdarius',
   githubLabel: 'github.com/Pkorirdarius',
-  graduating: 'December 2026',
 }
 
 export interface NavLink {
@@ -65,7 +64,6 @@ export interface Project {
   stars?: number
   forks?: number
   pinned?: boolean
-  status?: 'flagship' | 'other'
 }
 
 export const flagshipProjects: Project[] = [
@@ -86,7 +84,6 @@ export const flagshipProjects: Project[] = [
     screenshot: '/images/medisauti.jpg',
     stars: 2,
     pinned: true,
-    status: 'flagship',
   },
   {
     title: 'ATS Application',
@@ -101,7 +98,6 @@ export const flagshipProjects: Project[] = [
     ],
     github: 'https://github.com/Pkorirdarius',
     screenshot: '/images/ats.jpg',
-    status: 'flagship',
   },
 ]
 
@@ -115,7 +111,6 @@ export const otherProjects: Project[] = [
     github: 'https://github.com/Pkorirdarius/Nlp_model',
     stars: 1,
     forks: 3,
-    status: 'other',
   },
   {
     title: 'Spotify Recommendation System',
@@ -124,7 +119,6 @@ export const otherProjects: Project[] = [
       'Analyzed Spotify API data, applied K-Means clustering to group similar songs and surface listener taste profiles.',
     stack: ['Python'],
     github: 'https://github.com/Pkorirdarius/SpotifyRecommendation-system',
-    status: 'other',
   },
   {
     title: 'Codecraft Blog Webapp',
@@ -135,7 +129,6 @@ export const otherProjects: Project[] = [
     github: 'https://github.com/Pkorirdarius/Codecraft-Blog-Webapp',
     stars: 3,
     forks: 1,
-    status: 'other',
   },
   {
     title: 'PHP Voting System',
@@ -144,7 +137,6 @@ export const otherProjects: Project[] = [
     stack: ['PHP'],
     github: 'https://github.com/Pkorirdarius/php_voting_system',
     stars: 1,
-    status: 'other',
   },
 ]
 
