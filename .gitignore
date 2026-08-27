@@ -8,7 +8,7 @@ node_modules
 .artifacts
 
 # Build output
-
+dist
 dist-ssr
 *.local
 
