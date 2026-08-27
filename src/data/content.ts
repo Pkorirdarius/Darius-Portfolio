@@ -61,6 +61,7 @@ export interface Project {
   stack: string[]
   features?: string[]
   github: string
+  screenshot?: string
   stars?: number
   forks?: number
   pinned?: boolean
@@ -82,12 +83,13 @@ export const flagshipProjects: Project[] = [
       'Worked through Android build/toolchain issues (NDK, JDK/JAVA_HOME, permissions)',
     ],
     github: 'https://github.com/Pkorirdarius/Medical_reminder_App-Medisauti',
+    screenshot: '/images/medisauti.jpg',
     stars: 2,
     pinned: true,
     status: 'flagship',
   },
   {
-    title: 'Forex AI Pro',
+    title: 'ATS Application',
     tagline: 'LLM-Powered Trading Bot',
     description:
       'A hybrid trading system where MQL5 handles live trade execution via ONNX model inference, while a Django backend serves as the training and monitoring layer, talking to the market through the Deriv WebSocket API.',
@@ -98,6 +100,7 @@ export const flagshipProjects: Project[] = [
       'Proposed a scoped broker-staff permission model instead of granting broker companies superuser access',
     ],
     github: 'https://github.com/Pkorirdarius',
+    screenshot: '/images/ats.jpg',
     status: 'flagship',
   },
 ]

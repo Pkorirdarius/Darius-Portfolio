@@ -60,6 +60,22 @@ function ScreenshotPlaceholder({ title }: { title: string }) {
   )
 }
 
+function ProjectScreenshot({ project }: { project: Project }) {
+  if (project.screenshot) {
+    return (
+      <div className="relative aspect-[16/9] overflow-hidden rounded-lg border border-ink/10 bg-paper-soft dark:border-graphite-line dark:bg-graphite">
+        <img
+          src={project.screenshot}
+          alt={`Screenshot of ${project.title}`}
+          loading="lazy"
+          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+        />
+      </div>
+    )
+  }
+  return <ScreenshotPlaceholder title={project.title} />
+}
+
 export function FeaturedProjectCard({ project }: { project: Project }) {
   return (
     <article className="group relative flex flex-col overflow-hidden rounded-2xl border border-ink/8 bg-paper-soft p-5 transition-colors hover:border-signal/40 sm:p-7 dark:border-graphite-line dark:bg-graphite-soft dark:hover:border-signal/40">
@@ -78,7 +94,7 @@ export function FeaturedProjectCard({ project }: { project: Project }) {
         <SourceLink project={project} label="Code" />
       </div>
 
-      <ScreenshotPlaceholder title={project.title} />
+      <ProjectScreenshot project={project} />
 
       <div className="mt-5 flex flex-1 flex-col">
         <p className="font-display text-lg font-semibold text-signal-deep dark:text-signal">
